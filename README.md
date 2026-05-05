@@ -66,27 +66,4 @@ A landing page atual contém:
 
 ---
 
-## 📁 Estrutura do projeto
 
-bash
-CARTEIRA-VACINA-PETS
-├── app
-│   ├── components
-│   │   ├── Benefits.tsx
-│   │   ├── CallToAction.tsx
-│   │   ├── Features.tsx
-│   │   ├── Footer.tsx
-│   │   ├── Header.tsx
-│   │   └── Hero.tsx
-│   ├── favicon.ico
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
-│
-├── public
-├── .gitignore
-├── eslint.config.mjs
-├── next.config.ts
-├── package-lock.json
-├── package.json
-└── README.md
