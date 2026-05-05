@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐾 Carteira de Vacina para Pets
 
-## Getting Started
+Projeto desenvolvido com **Next.js** com o objetivo de criar uma carteira de vacinação digital para pets.  
+A proposta é permitir que tutores cadastrem seus animais, registrem vacinas aplicadas e acompanhem próximas doses de forma simples, organizada e acessível.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Sobre o projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A **Carteira de Vacina para Pets** é um sistema pensado para ajudar tutores a manterem o histórico de vacinação dos seus animais em dia.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Nesta primeira etapa, foi desenvolvida a **landing page** do projeto, apresentando a ideia principal, benefícios e funcionalidades planejadas.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Futuramente, o sistema poderá contar com:
 
-## Learn More
+- Cadastro de usuários
+- Login e autenticação
+- Cadastro de pets
+- Registro de vacinas
+- Controle de vencimento das vacinas
+- Dashboard com resumo dos pets cadastrados
+- Lembretes de próximas doses
+- Histórico completo de vacinação
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Tecnologias utilizadas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+O projeto foi desenvolvido utilizando:
 
-## Deploy on Vercel
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- ESLint
+- Node.js
+- npm
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎯 Objetivo do projeto
+
+Este projeto tem como objetivo praticar conceitos importantes do desenvolvimento front-end moderno, como:
+
+- Criação de páginas com Next.js
+- Componentização com React
+- Uso de TypeScript
+- Estilização com Tailwind CSS
+- Organização de estrutura de pastas
+- Criação de layout responsivo
+- Boas práticas para projetos de portfólio
+
+---
+
+## 🖥️ Funcionalidades da landing page
+
+A landing page atual contém:
+
+- Cabeçalho com logo e menu de navegação
+- Seção principal de apresentação do projeto
+- Cards com benefícios da carteira digital
+- Lista de funcionalidades planejadas
+- Chamada para ação
+- Rodapé informativo
+- Layout responsivo para diferentes tamanhos de tela
+
+---
+
+## 📁 Estrutura do projeto
+
+bash
+CARTEIRA-VACINA-PETS
+├── app
+│   ├── components
+│   │   ├── Benefits.tsx
+│   │   ├── CallToAction.tsx
+│   │   ├── Features.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Header.tsx
+│   │   └── Hero.tsx
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── public
+├── .gitignore
+├── eslint.config.mjs
+├── next.config.ts
+├── package-lock.json
+├── package.json
+└── README.md
